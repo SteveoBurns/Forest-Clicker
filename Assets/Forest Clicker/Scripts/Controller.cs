@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class Controller : MonoBehaviour
 {
+    [Header("Text boxes")]
     [SerializeField] private TextMeshProUGUI seedsText;
     [SerializeField] private TextMeshProUGUI seedsPerSecText;
     [SerializeField] private TextMeshProUGUI seedsButtonText;
@@ -14,7 +15,7 @@ public class Controller : MonoBehaviour
     [SerializeField] private TextMeshProUGUI lureEagleText;
     [SerializeField] private TextMeshProUGUI befriendSquirrelsText;
 
-    
+    [Header("Buttons")]
     [SerializeField] private Button lureBirdButton;
     [SerializeField] private Button plantTreeButton;
     [SerializeField] private Button lureEagleButton;
@@ -173,7 +174,7 @@ public class Controller : MonoBehaviour
     }
 
     /// <summary>
-    /// Set the button active & interactable when affordable and non-interactable when not affordable
+    /// Sets the button active & interactable when affordable and non-interactable when not affordable
     /// </summary>
     /// <param name="_cost">The cost of the button</param>
     /// <param name="_button">The button to make interactable</param>
