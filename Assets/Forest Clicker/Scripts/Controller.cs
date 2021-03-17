@@ -190,4 +190,9 @@ public class Controller : MonoBehaviour
             _button.interactable = false;           //Sets the button non-interactable when unaffordable
         }
     }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }    
